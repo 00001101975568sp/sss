@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Meu portfólio</title>
+</head>
+
+<body>
+    <header class="container text-center">
+        <img src="img/avatar-perfil.png" alt="avatar do estudante" class="rounded-circle" width="150" height="150">
+        <p class="lead">Eu sou [Seu Nome]</p>
+        <h1>Sou estudante e apaixonado por Química!</h1>
+        <p>Atualmente sou estudante de ensino médio e curso técnico em Química. Além de meu interesse por ciências, gosto de explorar outras áreas como programação e projetos interativos. Aqui você pode conferir alguns dos meus trabalhos e aprendizados!</p>
+        <p>Minhas habilidades</p>
+        <div>
+            <p class="badge bg-secondary">Química</p>
+            <p class="badge bg-secondary">Programação (HTML, CSS, JavaScript)</p>
+            <p class="badge bg-secondary">Ciências</p>
+        </div>
+    </header>
+
+    <main class="container mt-5">
+        <h2>Meus projetos</h2>
+        <div class="row">
+            <!-- Projeto 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/projeto-1.png" class="card-img-top" alt="Imagem do projeto de laboratório de química">
+                    <div class="card-body">
+                        <h5 class="card-title">Simulação de Reações Químicas</h5>
+                        <p class="card-text">Este projeto é uma simulação interativa onde você pode aprender sobre as diferentes reações químicas através de um ambiente virtual. É um exemplo de como a programação pode ser usada para educar em ciências.</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Veja o projeto</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Projeto 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/projeto-2.png" class="card-img-top" alt="Imagem do projeto de experimentos químicos interativos">
+                    <div class="card-body">
+                        <h5 class="card-title">Experimentos Químicos Interativos</h5>
+                        <p class="card-text">Neste projeto, criei uma série de experimentos interativos para que os alunos possam realizar virtualmente. O objetivo é ajudar na compreensão de conceitos químicos através de uma interface simples e intuitiva.</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">Veja o projeto</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projeto 3 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/projeto-3.png" class="card-img-top" alt="Imagem do projeto de quiz de química">
+                    <div class="card-body">
+                        <h5 class="card-title">Quiz de Química: Teste seus conhecimentos</h5>
+                        <p class="card-text">Este projeto consiste em um quiz interativo onde você pode testar seus conhecimentos sobre diversos temas da Química. O projeto foi feito utilizando HTML, CSS e JavaScript.</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3">Veja o projeto</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Modal 1 -->
+    <div class="modal" id="modal1" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Simulação de Reações Químicas</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>O projeto Simulação de Reações Químicas visa ensinar aos alunos as reações químicas mais comuns e os princípios envolvidos em cada uma delas. Através de uma interface interativa, os usuários podem misturar substâncias e ver como elas reagem, como se estivessem em um laboratório virtual.</p>
+                    <img src="img/projeto-1.png" alt="Imagem do projeto de laboratório de química">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://github.com/seu-usuario/projeto-simulacao-reacoes">Ver código do projeto</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 2 -->
+    <div class="modal" id="modal2" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Experimentos Químicos Interativos</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Este projeto foi criado para tornar os experimentos químicos mais acessíveis para os estudantes. Através de uma plataforma interativa, é possível visualizar e entender os conceitos por trás de diversas reações químicas, sem a necessidade de estar em um laboratório físico.</p>
+                    <img src="img/projeto-2.png" alt="Imagem do projeto de experimentos químicos">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://github.com/seu-usuario/projeto-experimentos-quimicos">Ver código do projeto</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 3 -->
+    <div class="modal" id="modal3" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Quiz de Química</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>O Quiz de Química foi desenvolvido para testar os conhecimentos de quem está estudando a matéria. São perguntas sobre os principais conceitos de Química, e as respostas corretas ajudam o usuário a aprender de forma divertida e interativa.</p>
+                    <img src="img/projeto-3.png" alt="Imagem do projeto de quiz de química">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://github.com/seu-usuario/projeto-quiz-quimica">Ver código do projeto</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="container py-5">
+        <h2>Entre em contato</h2>
+        <div>
+            <a href="https://github.com/seu-usuario">GitHub</a>
+        </div>
+        <p class="my-5 text-center">© Copyright 2024. Produzido por [Seu Nome]</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
